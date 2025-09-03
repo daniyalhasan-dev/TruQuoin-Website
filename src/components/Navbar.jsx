@@ -10,7 +10,7 @@ const Navbar = () => {
           background:
             "linear-gradient(93deg,rgba(74, 74, 74, 1) 0%, rgba(32, 32, 32, 1) 100%)",
         }}
-        className="w-[90vw] max-w-[1444px] flex justify-between items-center px-16 py-4 mx-auto rounded-lg mt-[40px]"
+        className="w-[90vw] max-w-[1444px] flex justify-between items-center px-16 py-4 mx-auto rounded-lg mt-[40px] "
       >
         {/* Logo */}
         <div className="pt-1">
@@ -49,7 +49,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div style={{background:
-              "linear-gradient(100deg,rgba(255, 138, 0, 1) 0%, rgba(200, 108, 1, 1) 100%)"}} className="lg:hidden bg-black px-6 pb-4 space-y-4">
+              "linear-gradient(100deg,rgba(255, 138, 0, 1) 0%, rgba(200, 108, 1, 1) 100%)"}} className="lg:hidden bg-black px-6 pb-4 space-y-4 py-7 rounded-lg w-[90vw] mx-auto mt-4">
           <a href="#home" className="block hover:text-gray-400">
             Home
           </a>
@@ -62,6 +62,7 @@ const Navbar = () => {
           <a href="#contact" className="block hover:text-gray-400">
             Contact
           </a>
+          <button className='border-1 px-5 py-2 bg-black text-white rounded-lg hover:text-amber-600 duration-300'>Launch WebApp</button>
         </div>
       )}
     </>
