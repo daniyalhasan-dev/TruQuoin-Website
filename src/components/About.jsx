@@ -6,7 +6,7 @@ const About = () => {
       <div>
         <div>
           <h1 className='mt-8 flex justify-center'>About Us</h1>
-          <p></p>
+          <p>lorem10</p>
         </div>
       </div>
     </>
