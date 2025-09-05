@@ -19,12 +19,12 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex gap-[40px] text-white pt-2">
-          <li>Earn</li>
-          <li>Trade</li>
-          <li>Spend</li>
-          <li>About</li>
-          <li>Doc</li>
-          <li>Contact</li>
+          <a href="/"><li>Earn</li></a>
+          <a href="/trade"><li>Trade</li></a>
+          <a href=""><li>Spend</li></a>
+          <a href=""><li>About</li></a>
+          <a href=""><li>Doc</li></a>
+          <a href=""><li>Contact</li></a>
         </ul>
 
 
@@ -50,22 +50,22 @@ const Navbar = () => {
       {isOpen && (
         <div style={{background:
               "linear-gradient(100deg,rgba(255, 138, 0, 1) 0%, rgba(200, 108, 1, 1) 100%)"}} className="lg:hidden bg-black px-6 pb-4 space-y-4 py-7 rounded-lg w-[90vw] mx-auto mt-4">
-          <a href="#home" className="block hover:text-gray-400">
+          <a href="/" className="block hover:text-gray-400">
             Earn
           </a>
-          <a href="#about" className="block hover:text-gray-400">
+          <a href="trade" className="block hover:text-gray-400">
             Trade
           </a>
-          <a href="#services" className="block hover:text-gray-400">
+          <a href="#" className="block hover:text-gray-400">
             Spend
           </a>
-          <a href="#contact" className="block hover:text-gray-400">
+          <a href="#" className="block hover:text-gray-400">
             About
           </a>
-          <a href="#contact" className="block hover:text-gray-400">
+          <a href="#" className="block hover:text-gray-400">
             Doc
           </a>
-          <a href="#contact" className="block hover:text-gray-400">
+          <a href="#" className="block hover:text-gray-400">
             Contact
           </a>
           <button className='border-1 px-5 py-2 bg-black text-white rounded-lg hover:text-amber-600 duration-300'>Launch WebApp</button>

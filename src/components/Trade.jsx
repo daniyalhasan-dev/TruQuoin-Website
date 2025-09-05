@@ -116,7 +116,7 @@ const About = () => {
         </div>
         </div>
         <div>
-          <h1 className="text-white">What We Offer</h1>
+          <h1 className="text-white text-3xl text-center pb-5 font-semibold">What We Offer</h1>
         </div>
       </div>
     </>
