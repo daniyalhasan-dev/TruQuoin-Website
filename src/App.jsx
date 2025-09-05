@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from './components/Home';
 import Navbar from './components/Navbar';
-import About from './components/About';
+import About from './components/Trade';
 
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/about' element={<About/>}/>
+        <Route path='/trade' element={<About/>}/>
       </Routes>
     </BrowserRouter>
   )

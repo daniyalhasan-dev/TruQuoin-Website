@@ -51,13 +51,19 @@ const Navbar = () => {
         <div style={{background:
               "linear-gradient(100deg,rgba(255, 138, 0, 1) 0%, rgba(200, 108, 1, 1) 100%)"}} className="lg:hidden bg-black px-6 pb-4 space-y-4 py-7 rounded-lg w-[90vw] mx-auto mt-4">
           <a href="#home" className="block hover:text-gray-400">
-            Home
+            Earn
           </a>
           <a href="#about" className="block hover:text-gray-400">
-            About
+            Trade
           </a>
           <a href="#services" className="block hover:text-gray-400">
-            Services
+            Spend
+          </a>
+          <a href="#contact" className="block hover:text-gray-400">
+            About
+          </a>
+          <a href="#contact" className="block hover:text-gray-400">
+            Doc
           </a>
           <a href="#contact" className="block hover:text-gray-400">
             Contact
