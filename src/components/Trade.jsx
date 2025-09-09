@@ -165,6 +165,15 @@ const About = () => {
             <h1 className="text-3xl text-white pb-5">Follow us</h1>
             <p className="text-white">Be Part of our TruQoin Community</p>
           </div>
+
+          <div className="flex">
+            <div className="">
+              <img src="insta.png" alt="" className="w-max h-max bg-black py-2 px-2 rounded-3xl" />
+            </div>
+            <div>
+              <p>Instagram 10.2k</p>
+            </div>
+          </div>
         </div>
     </>
   );
