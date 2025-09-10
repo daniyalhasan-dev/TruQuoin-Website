@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href=""><li>Spend</li></a>
           <a href=""><li>About</li></a>
           <a href=""><li>Doc</li></a>
-          <a href=""><li>Contact</li></a>
+          <a href="/contact"><li>Contact</li></a>
         </ul>
 
 
@@ -65,7 +65,7 @@ const Navbar = () => {
           <a href="#" className="block hover:text-gray-400">
             Doc
           </a>
-          <a href="#" className="block hover:text-gray-400">
+          <a href="contact" className="block hover:text-gray-400">
             Contact
           </a>
           <button className='border-1 px-5 py-2 bg-black text-white rounded-lg hover:text-amber-600 duration-300'>Launch WebApp</button>
