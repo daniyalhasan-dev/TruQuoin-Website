@@ -320,35 +320,8 @@ const About = () => {
           </div>
         </div>
 
-        <div className="text-center">
-          <h1 className="text-3xl text-white pb-5">Follow us</h1>
-          <p className="text-white pb-10">Be Part of our TruQoin Community</p>
-        </div>
 
-        {/* <div className="md:flex flex-row justify-center">
-            <div className="flex bg-black px-10 py-3 rounded-lg md:mx-5 mx-25 mb-5">
-              <img src="insta.png" alt="" className="w-max h-max bg-black py-1 px-2 rounded-3xl" />
-              <p className="text-white ">Instagram</p>
-              <div>
-              <p className="text-white pl-15">10.2k</p>
-              </div>
-            </div>
-            <div className="flex bg-black px-10 py-3 rounded-lg md:mx-5 mx-25 mb-5">
-              <img src="insta.png" alt="" className="w-max h-max bg-black py-1 px-2 rounded-3xl" />
-              <p className="text-white ">Instagram</p>
-              <div>
-              <p className="text-white pl-15">10.2k</p>
-              </div>
-            </div>
-            <div className="flex bg-black px-10 py-3 rounded-lg md:mx-5 mx-25 mb-5">
-              <img src="insta.png" alt="" className="w-max h-max bg-black py-1 px-2 rounded-3xl" />
-              <p className="text-white ">Instagram</p>
-              <div>
-              <p className="text-white pl-15">10.2k</p>
-              </div>
-            </div>
-          </div> */}
-        <div class="relative bg-[#0a0a0a] text-white py-16">
+        <div class="relative #0a0a0a] text-white py-16">
           <div class="relative z-10 text-center">
             <h2 class="text-3xl font-bold">Follow us</h2>
             <p class="text-gray-400 mt-2">Be Part of our TruQoin Community</p>
